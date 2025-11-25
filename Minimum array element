@@ -1,0 +1,15 @@
+#include< stdio.h>
+#include<conio.h>
+void main()
+{
+int a[5],i,min;
+clrscr();
+printf(" enter five integers number to continue:\n");
+for(i=0;i<5 ;i++)
+scanf("%d",&a[i]);
+min=a[0];
+for( i=0;i<5;i++)
+min= a[i];
+printf(" mim array element:%d", min);
+getch();
+}
