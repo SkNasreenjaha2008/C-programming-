@@ -1,0 +1,23 @@
+#include<stdio.h>
+# include<conio.h>
+void main()
+{
+int a,b;
+void add ( int,int);
+  printf(" Hello");
+  printf("\n I am working with");
+  printf("\n functions");
+  a= 10; b=20;
+  add(a,b);
+  printf("\n End of the program");
+  }
+void add( int a,int b);
+  printf("%d",( a+b));
+  }
+
+
+Output:
+Hello 
+I am working with
+functions 30
+End of the program.
