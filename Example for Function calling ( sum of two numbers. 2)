@@ -1,0 +1,23 @@
+#include< stdio.h>
+#include<conio.h>
+void main()
+{
+  int a,b;
+  void add(int,int);
+  printf(" Enter a,b values");
+  scanf("%d%d",&a,&b);
+  add( a,b);
+  printf("\n End of the program");
+  }
+void add( int a, int b);
+{
+  printf("%d",(a+b));
+  getch();
+}
+
+output:
+Enter a,b values:
+7
+54
+61
+End of the program.
