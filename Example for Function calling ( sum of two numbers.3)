@@ -1,0 +1,27 @@
+#include< stdio.h>
+#include<conio.h>
+void main()
+{
+  int a,b, result;
+  void add(int,int);
+  printf(" Enter a,b values");
+  scanf("%d%d",&a,&b);
+  result= add( a,b);
+  printf("%d", result);
+  printf("\n End of the program");
+  }
+void add( int a, int b);
+{
+   int c;
+   c= a+b;
+   return c;
+   }
+
+
+
+   Output:
+   Enter a,b values:
+   5
+   4
+   9
+   End of the program.
