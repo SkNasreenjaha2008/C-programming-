@@ -1,0 +1,28 @@
+#include<stdio.h>
+# include<conio.h>
+void main()
+{
+  printf("Hello");
+  printf("\n I am working with");
+  printf("\n functions");
+  add();
+  printf("\n End of the program");
+  }
+void main()
+{
+  int a,b;
+  printf (" Enter a and b values:\n");
+  scanf("%d%d",&a,&b);
+  printf("%d",( a+b));
+  }
+
+
+Output:
+Hello 
+I am working with
+functions
+Enter a and b values:
+7
+63
+70
+End of the program.
