@@ -1,0 +1,19 @@
+ # include<stdio.h>
+#include<stdlib.h>
+void main()
+{
+void printnum();
+printnum();
+}
+void print()
+{
+Static int i=l;
+printf("%d ",i++);
+if(i==6)
+exit(0);
+printnum();
+}
+
+
+Output:
+ 1 2 3 4 5 
