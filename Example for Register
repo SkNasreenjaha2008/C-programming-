@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main()
+{
+register int mainvar;
+void printnum();
+mainvar:l0;
+Printnom();
+Printf("in in main :%d", mainvar);
+}
+void, printnum()
+{
+auto int mainvar;
+Pf("in printnum:%d", mainvar);
+  }
+output: 
+in printnum:34562
+in main:10
