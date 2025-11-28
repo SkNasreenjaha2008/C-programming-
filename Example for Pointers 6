@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main()
+{
+int a[3]={10,20,30};
+int *ptr;
+ptr=a;
+for(i=0;i<=2;i++);
+printf ("%d",*(ptr++));
+}
+
+
+OUTPUT: 
+10
+20
+30
