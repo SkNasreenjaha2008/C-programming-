@@ -1,0 +1,25 @@
+#include<stdio.h>
+void main()
+{
+int a,*b,**c;
+a=10;
+b=&a;
+c=&b;
+printf("%d",a);
+printf("\n%d",b);
+printf("\n%d",b);
+printf("\n%d",*b);
+printf("\n%d",&b);
+printf("\n%d",c);
+getch();
+}
+
+
+
+output:
+10
+-2056491836
+-2056491836
+10
+-2056491848
+-2056491848
