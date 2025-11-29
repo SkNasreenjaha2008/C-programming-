@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+{
+  char string[30];
+  printf("Enter the name:");
+  gets (name);
+  printf ("Your name is %s",name);
+  }
+
+
+
+Output: Enter the name: pace college 
+Your name is pace college 
