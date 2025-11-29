@@ -1,0 +1,21 @@
+#incpude<stdio.h>
+void main()
+{
+  char name[30];
+  int i, length=0;
+  printf("Enter the name:");
+  gets(name);
+  for(i=0;i++)
+    {
+    if(name[i]!='0')
+      length++;
+    else 
+      break;
+    }
+  printf("length is %d", length);
+    }
+
+
+Output: 
+Enter the name: pace college 
+length is 12
