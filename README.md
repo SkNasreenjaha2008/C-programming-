@@ -20,11 +20,12 @@ if (marks >= 90)
     {
         printf("Fail\n");
     }
+    return0;
+    }
 
     output:
     Enter marks: 78
     Grade A
 
 
-    return 0;
-}
+
